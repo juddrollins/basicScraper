@@ -19,9 +19,13 @@ try:
 except NoSuchElementException:
     print("Shopping location locator was not found on page")
 
-search_bar = driver.find_element_by_id("search-nav-input")
-search_bar.send_keys("Coors Light")
-search_bar.send_keys(Keys.RETURN)
+beer_wine_label = driver.find_element_by_id("nav-main-shop-category-3697")
+beer_wine_label.click()
+
+domestic = driver.find_element_by_id("catalog-category-3714")
+domestic.click()
+
+if
 
 
 
