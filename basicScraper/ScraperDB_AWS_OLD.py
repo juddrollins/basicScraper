@@ -2,8 +2,9 @@ import requests
 from bs4 import BeautifulSoup
 from csv import writer
 
-import mysql.connector
+#AWS SQL data base was deleted because of cost
 
+import mysql.connector
 
 mydb = mysql.connector.connect(
   host="database-2.crzbo2iybmfk.us-east-1.rds.amazonaws.com",
